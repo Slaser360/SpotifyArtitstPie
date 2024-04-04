@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Artist Analysis</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        margin-top: 50px;
+      }
+      .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+      }
+      img {
+        max-width: 35%;
+        height: auto;
+        margin: 10px;
+      }
+      p {
+        margin-top: 30px;
+        font-size: 18px;
+        line-height: 1.5;
+        padding: 0 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Your Top Artists as a Pie in the Last Month</h1>
+    <div class="image-container">
+      <img src="{{ pie_chart_path }}" alt="Top Artists Pie Chart" />
+      <img src="{{ generated_image_path }}" alt="Generated Image" />
+    </div>
+    <p>{{ creative_description }}</p>
+  </body>
+</html>
