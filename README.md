@@ -22,8 +22,7 @@ This project is a web application that allows users to analyze their top artists
 ## Installation
 
 1. Clone the repository: git clone https://github.com/Slaser360/SpotifyArtistPie.git
-2. 2. Install the required dependencies:
-pip install -r requirements.txt
+2. Install the required dependencies: pip install -r requirements.txt
 
 
 Copy code
