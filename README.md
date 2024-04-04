@@ -24,18 +24,8 @@ This project is a web application that allows users to analyze their top artists
 
 1. Clone the repository: git clone https://github.com/Slaser360/SpotifyArtitstPie.git
 2. Install the required dependencies: pip install -r requirements.txt
-
-
-Copy code
-
-3. Set up your Spotify and OpenAI API credentials in the `app.py` file.
-
-4. Run the Flask application:
-python app.py
-
-
-Copy code
-
+3. Set up your Spotify and OpenAI API credentials in the `app.py` file. (SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET, SPOTIFY_REDIRECT_URI, openai.api_key)
+4. Run the Flask application: python app.py
 5. Open your web browser and navigate to `http://localhost:3000` to access the application.
 
 ## Usage
